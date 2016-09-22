@@ -163,7 +163,7 @@ local channel = db:hget('bot:channel',msg.chat.id)
 local insta = db:hget('bot:instagram',msg.chat.id)
 local text = name
 if age then
-text = text .. '\n'..age..
+text = text .. '\n'..age
 end
 if loc then
 text = text .. '\nfrom '..loc
